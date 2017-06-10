@@ -5,18 +5,30 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "saifi-dw-database-scripts", "saifi-dw-database-scripts\saifi-dw-database-scripts.sqlproj", "{71690ED0-FEFE-4316-BD30-143AF5FFAF01}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "saifi-mt-integration-etl", "saifi-mt-integration-etl\saifi-mt-integration-etl.dtproj", "{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Development|Any CPU.Deploy.0 = Debug|Any CPU
 		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71690ED0-FEFE-4316-BD30-143AF5FFAF01}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}.Debug|Any CPU.ActiveCfg = Development
+		{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}.Debug|Any CPU.Build.0 = Development
+		{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}.Development|Any CPU.ActiveCfg = Development
+		{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}.Development|Any CPU.Build.0 = Development
+		{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}.Release|Any CPU.ActiveCfg = Development
+		{0144416F-4D16-43BD-B25F-ACC4EEBF8F53}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

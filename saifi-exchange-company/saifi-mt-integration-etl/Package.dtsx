@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/11/2017 1:18:09 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="LAP-FNC-EDRES02"
+  DTS:CreatorName="LAP-FNC-EDRES02\EDRES"
+  DTS:DTSID="{B481641E-08D7-4C61-8090-F3CCAA73E297}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="13.0.2150.2"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{4F690F5D-9895-4DAA-93AA-4E60CBAE4FD5}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
