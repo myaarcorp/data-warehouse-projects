@@ -1,0 +1,22 @@
+﻿CREATE VIEW [MT].[Currency_v] AS 
+SELECT [CurrencyKey] AS [Currency Key]
+, [CurrencyAlternateKey] AS [Currency Alternate Key]
+, [CurrencyNumber] AS [Currency Number]
+, [CurrencySwiftCode] AS [Currency Swift Code]
+, [CurrencyName] AS [Currency Name]
+, [CurrencyFullName] AS [Currency Full Name]
+, [Currency_Decimal] AS [Currency Decimal]
+, [Currency_Display_Factor] AS [Currency Display Factor]
+, [Local_Currency_Flag] AS [Local Currency Flag]
+, [Group_Currency_Flag] AS [Group Currency Flag]
+, [Member_Currency_Flag] AS [Member Currency Flag]
+, [Currency_Thousands_Separator] AS [Currency Thousands Separator]
+, [Currency_Decimal_Separator] AS [Currency Decimal Separator]
+, [Currency_ISO_Symbol] AS [Currency ISO Symbol]
+, [RowIsCurrent] AS [Row Is Current]
+, [RowStartDate] AS [Row Start Date]
+, [RowEndDate] AS [Row End Date]
+
+, [InsertAuditKey] AS [InsertAuditKey]
+, [UpdateAuditKey] AS [UpdateAuditKey]
+FROM dbo.DimCurrency
