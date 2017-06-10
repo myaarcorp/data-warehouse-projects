@@ -1,0 +1,16 @@
+﻿CREATE VIEW [MT].[Geography_v] AS 
+SELECT [GeographyKey] AS [Geography Key]
+, [City] AS [City]
+, [StateProvinceCode] AS [StateProvinceCode]
+, [StateProvinceName] AS [StateProvinceName]
+, [CountryCode] AS [CountryCode]
+, [CountryName] AS [CountryName]
+, [PostalCode] AS [PostalCode]
+, [RegionKey] AS [RegionKey]
+, [IpAddressLocator] AS [IpAddressLocator]
+, [RowIsCurrent] AS [Row Is Current]
+, [RowStartDate] AS [Row Start Date]
+, [RowEndDate] AS [Row End Date]
+, [InsertAuditKey] AS [InsertAuditKey]
+, [UpdateAuditKey] AS [UpdateAuditKey]
+FROM dbo.DimGeography

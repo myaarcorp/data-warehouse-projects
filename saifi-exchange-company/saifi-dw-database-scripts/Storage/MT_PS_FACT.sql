@@ -1,0 +1,2 @@
+﻿/****** Object:  PartitionScheme [MT_PS_FACT]    Script Date: 6/9/2017 9:21:34 PM ******/
+CREATE PARTITION SCHEME [MT_PS_FACT] AS PARTITION [MT_PF_YEAR] TO ([MTFG0000], [MTFG2016], [MTFG2017], [MTFG2018])
